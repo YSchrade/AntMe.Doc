@@ -1,0 +1,43 @@
+@import "_fonts.sass"
+@import "_variables.sass"
+@import "index.sass"
+@import "header.sass"
+@import "card.sass"
+@import "./contentItem"
+
+
+*
+    font-size: 14pt
+    color: $font-color
+    font-weight: 400
+    font-family: Roboto
+    box-sizing: border-box
+
+h1
+    font-family: PatrickHand
+    font-size: $h1-font-size
+    color: $accent-color
+
+.shadow
+    box-shadow: 0 5px 8px  lighten(black, 80%)
+
+.shadow-ur
+    box-shadow: 5px 5px 8px  lighten(black, 80%)
+
+body, html
+    margin: 0
+    padding: 0
+    display: flex
+    flex-direction: column
+    height: 100%
+    width: 100%
+    font-size: 10px
+    background-color: $background-color
+
+#header
+    felx: 0 1 auto
+    width: 100%
+
+#content
+    flex: 1 1 auto
+    width: 100%

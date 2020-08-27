@@ -1,0 +1,28 @@
+languageCode = "en-us"
+title = "AntMe! Dokumentation"
+RelativeUrls = true
+uglyurls = true
+theme = "AntMe"
+DefaultContentLanguage = "de"
+defaultContentLanguageInSubdir = true
+
+[languages]
+  [languages.de]
+    title = "AntMe! Dokumentation"
+    languageName = "Deutsch"
+    weight = 1
+  [languages.en]
+    title = "AntMe! Documentation"
+    languageName = "English"
+    weight = 2
+
+
+[menu]
+  [[menu.nav]]
+    name = "Home"
+    url = "/index.html"
+    weight = 1
+  [[menu.nav]]
+    name = "Tutorials"
+    url = "/tutorials.html"
+    weight = 2

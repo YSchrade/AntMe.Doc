@@ -1,0 +1,30 @@
+@import "./_variables"
+
+nav
+    background-color:  $main-color
+    margin: 0
+    padding: 0
+    height: 10rem
+    @extend .shadow
+
+    ul
+        display: flex
+        flex-direction: row
+        margin: 0
+        height: 100%
+        align-items: center
+
+        li
+            list-style: none
+            align-items: center
+            
+            a
+                text-decoration: none
+                font-family: PatrickHand
+                font-size: 24pt
+                align-items: center
+                margin: 0
+                padding: 0 1rem 
+
+                &.isActive
+                    color: $accent-color

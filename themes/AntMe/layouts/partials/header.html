@@ -1,0 +1,21 @@
+<header>
+    <nav>
+        {{ $current := . }}
+        <ul>
+           {{ range .Site.Menus.nav }}
+           {{ $active := or ($current.IsMenuCurrent "nav" .) ($current.HasMenuCurrent "nav" .) }}
+           {{ $active = or $active (eq .Name $current.Title) }}
+           {{ $active = or $active (and ($current.IsHome) (eq .Name "Home")) }}
+            <li>
+                <a href="{{ .URL | relLangURL }}" class="{{ if $active }} isActive {{ end }}">
+                    {{ if eq (T .Name) nil }}
+                        {{ T .Name}}
+                    {{ else }}
+                        {{ .Name }}
+                    {{ end }}
+                </a>
+            </li>
+           {{ end }}
+        </ul>
+    </nav>
+</header>
