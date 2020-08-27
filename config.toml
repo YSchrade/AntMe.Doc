@@ -5,6 +5,7 @@ uglyurls = true
 theme = "AntMe"
 DefaultContentLanguage = "de"
 defaultContentLanguageInSubdir = true
+sectionPagesMenu = "nav"
 
 [languages]
   [languages.de]
@@ -22,7 +23,3 @@ defaultContentLanguageInSubdir = true
     name = "Home"
     url = "/index.html"
     weight = 1
-  [[menu.nav]]
-    name = "Tutorials"
-    url = "/tutorials.html"
-    weight = 2
