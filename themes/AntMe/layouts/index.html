@@ -1,5 +1,4 @@
 {{ define "main" }}
-
 	{{$cards := (index .Site.Data .Site.Language.Lang).cards }}
 	<div class="cardcontainer">
 		{{ range $cards }}

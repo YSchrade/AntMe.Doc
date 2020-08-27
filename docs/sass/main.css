@@ -1,0 +1,143 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto-Regular.ttf); }
+
+@font-face {
+  font-family: PatrickHand;
+  src: url(../fonts/PatrickHand-Regular.ttf); }
+
+.cardcontainer {
+  display: flex;
+  height: 100%;
+  padding-top: 15rem; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #FFFFFF;
+  height: 10rem; }
+  header nav {
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+    header nav ul {
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      height: 100%;
+      align-items: center; }
+      header nav ul li {
+        list-style: none;
+        align-items: center; }
+        header nav ul li a {
+          text-decoration: none;
+          font-family: PatrickHand;
+          font-size: 24pt;
+          align-items: center;
+          margin: 0;
+          padding: 0 1rem; }
+  header .isActive {
+    color: #F59324; }
+  header #languageswitch ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    padding: 0 2rem 0 0; }
+    header #languageswitch ul li {
+      list-style: none;
+      align-items: center;
+      border-right: 1px #707070 solid; }
+      header #languageswitch ul li:last-child {
+        border: none; }
+      header #languageswitch ul li a {
+        text-decoration: none;
+        padding: 0.5rem;
+        align-items: center;
+        text-transform: uppercase; }
+
+.card {
+  width: 45rem;
+  height: 45rem;
+  background: #FFFFFF;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 5rem; }
+  .card h1 {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+    flex: 0 1 auto; }
+  .card p {
+    padding: 1rem 3rem;
+    flex: 1 1 auto; }
+  .card img {
+    height: 10rem;
+    display: block;
+    margin: auto; }
+  .card a {
+    text-decoration: none;
+    padding: 0;
+    margin: 0 2rem 2rem auto; }
+    .card a:hover {
+      color: #F59324; }
+
+.contentItem {
+  background-color: #FFFFFF;
+  margin: 3rem;
+  max-width: 40%; }
+  .contentItem h1 {
+    margin: 0;
+    padding: 2rem; }
+    .contentItem h1 a {
+      text-decoration: none;
+      font-family: PatrickHand;
+      color: #F59324;
+      font-size: 24pt;
+      margin: 0;
+      padding: 0; }
+      .contentItem h1 a:hover {
+        text-decoration: underline; }
+  .contentItem p {
+    margin: 0;
+    padding: 0 3rem 3rem; }
+
+* {
+  font-size: 14pt;
+  color: #707070;
+  font-weight: 400;
+  font-family: Roboto;
+  box-sizing: border-box; }
+
+h1 {
+  font-family: PatrickHand;
+  font-size: 24pt;
+  color: #F59324; }
+
+.shadow, header {
+  box-shadow: 0 5px 8px #cccccc; }
+
+.shadow-ur, .card, .contentItem {
+  box-shadow: 5px 5px 8px #cccccc; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  font-size: 10px;
+  background-color: #F8F8F8; }
+
+#header {
+  felx: 0 1 auto;
+  width: 100%; }
+
+#content {
+  flex: 1 1 auto;
+  width: 100%; }
