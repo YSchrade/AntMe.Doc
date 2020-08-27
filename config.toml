@@ -4,8 +4,8 @@ RelativeUrls = true
 uglyurls = true
 theme = "AntMe"
 DefaultContentLanguage = "de"
-defaultContentLanguageInSubdir = true
 sectionPagesMenu = "nav"
+publishDir = "docs"
 
 [languages]
   [languages.de]

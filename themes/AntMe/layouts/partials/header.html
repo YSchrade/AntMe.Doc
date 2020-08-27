@@ -19,8 +19,9 @@
         <ul>
             {{ range $.Site.Home.AllTranslations }}
             {{ $active := eq $current.Language.Lang .Language.Lang}}
+            {{ $permalink := cond (strings.HasSuffix .Permalink "html") .Permalink (printf "%sindex.html" .Permalink) }}
             <li>
-                <a class="{{ if  $active }} isActive {{ end }}" href="{{ .Permalink }}">{{ .Language.Lang }}</a>
+                <a class="{{ if  $active }} isActive {{ end }}" href="{{ $permalink }}">{{ .Language.Lang }}</a>
             </li>
             {{ end }}
         </ul>
