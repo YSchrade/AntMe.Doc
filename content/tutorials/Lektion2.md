@@ -1,6 +1,7 @@
 ---
-title: "Lektion 2"
+title: "Nahrung"
 draft: true
+weight: 2
 description: "Test"
 ---
 
