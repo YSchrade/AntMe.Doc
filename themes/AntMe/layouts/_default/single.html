@@ -1,7 +1,18 @@
 {{ define "main" }}
-<div class="pos">
-    <h1>{{ .Title }}</h1>
-    <div class="content">
+{{ $current := . }}
+<div id="site">
+    <nav id="sitenav">
+        <h1>{{ .CurrentSection.Name }}</h1>
+        <ul>
+            {{ range .CurrentSection.Pages }}
+            <li>
+                <a href="{{ .Permalink }}" class="{{ if eq $current . }}isActive{{ end }}">{{ .Name }}</a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+    <div id="content">
+        <h1>{{ .Title }}</h1>
         {{ .Content }}
     </div>
 </div>
