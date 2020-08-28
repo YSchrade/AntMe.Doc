@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tutorials/spielstart.html</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorials/lektion2.html</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <xhtml:link
                 rel="alternate"
@@ -31,11 +39,11 @@
   </url>
   
   <url>
-    <loc>/tutorials/lektion1.html</loc>
+    <loc>/installation/entwicklungsumgebung.html</loc>
   </url>
   
   <url>
-    <loc>/tutorials/lektion2.html</loc>
+    <loc>/installation.html</loc>
   </url>
   
   <url>

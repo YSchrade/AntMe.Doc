@@ -11,20 +11,31 @@
     
     
     <item>
-      <title>Lektion 1: Installation</title>
-      <link>/tutorials/lektion1.html</link>
+      <title>Spielstart</title>
+      <link>/tutorials/spielstart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/lektion1.html</guid>
-      <description></description>
+      <guid>/tutorials/spielstart.html</guid>
+      <description>Hier erfährst du, wie du mit dem eigentlichen Spiel beginnst, indem du deine Ameise erschaffst und sie in ihrer Welt platzierst.
+Die nachfolgenden Erklärungen und Bilder beziehen sich auf das Visual Studio 2013 als Entwicklungsumgebung sowie die beiden Frameworks .NET Framework 4 und .XNA Framework.
+Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit den Programmiersprachen C# oder VB.NET entwickelt worden sind. Das .XNA-Framework ermöglicht die 3D-Ansicht des Spiels.</description>
     </item>
     
     <item>
-      <title>Lektion 2</title>
+      <title>Nahrung</title>
       <link>/tutorials/lektion2.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tutorials/lektion2.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Entwicklungsumgebung</title>
+      <link>/installation/entwicklungsumgebung.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/installation/entwicklungsumgebung.html</guid>
       <description></description>
     </item>
     

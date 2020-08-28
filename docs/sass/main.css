@@ -30,14 +30,15 @@ header {
       align-items: center; }
       header nav ul li {
         list-style: none;
-        align-items: center; }
+        align-items: center;
+        padding: 0;
+        margin: 0 1rem; }
         header nav ul li a {
           text-decoration: none;
           font-family: PatrickHand;
-          font-size: 24pt;
+          font-size: 3.5rem;
           align-items: center;
-          margin: 0;
-          padding: 0 1rem; }
+          padding: 0; }
   header .isActive {
     color: #F59324; }
   header #languageswitch ul {
@@ -106,6 +107,42 @@ header {
     margin: 0;
     padding: 0 3rem 3rem; }
 
+#site {
+  width: 100%;
+  display: flex;
+  flex-direction: row; }
+  #site #sitenav {
+    height: fit-content;
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem; }
+    #site #sitenav .isActive {
+      color: #F59324; }
+    #site #sitenav h1 {
+      margin: 0;
+      padding: 0; }
+    #site #sitenav ul {
+      margin: 0;
+      padding: 0; }
+      #site #sitenav ul li {
+        list-style: none;
+        margin: 2rem 0; }
+        #site #sitenav ul li a {
+          text-decoration: none; }
+  #site #content {
+    background-color: white;
+    margin: 2rem;
+    padding: 2rem; }
+    #site #content p {
+      padding: 0 3rem; }
+      #site #content p img {
+        display: block;
+        margin: auto;
+        padding: 2rem; }
+    #site #content h1 {
+      margin: 0;
+      padding: 0; }
+
 * {
   font-size: 14pt;
   color: #707070;
@@ -121,7 +158,7 @@ h1 {
 .shadow, header {
   box-shadow: 0 5px 8px #cccccc; }
 
-.shadow-ur, .card, .contentItem {
+.shadow-ur, .card, .contentItem, #site #sitenav, #site #content {
   box-shadow: 5px 5px 8px #cccccc; }
 
 body, html {
