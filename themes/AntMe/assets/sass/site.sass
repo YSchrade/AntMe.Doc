@@ -1,0 +1,49 @@
+@import "./_variables"
+
+#site
+    width: 100%
+    display: flex
+    flex-direction: row
+
+    #sitenav
+        height: fit-content
+        background-color: white
+        margin: 2rem
+        padding: 2rem
+        @extend .shadow-ur
+
+        .isActive
+            color: $accent-color
+        h1
+            margin: 0
+            padding: 0
+        ul
+            margin: 0
+            padding: 0
+
+            li
+                list-style: none
+                margin: 2rem 0                
+
+                a
+                    text-decoration: none
+                    
+            
+
+    #content
+        background-color: white
+        margin: 2rem
+        @extend .shadow-ur
+        padding: 2rem
+
+
+        p
+            padding: 0 3rem
+            img
+                display: block
+                margin: auto
+                padding: 2rem
+
+        h1 
+            margin: 0
+            padding: 0
