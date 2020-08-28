@@ -6,6 +6,7 @@ theme = "AntMe"
 DefaultContentLanguage = "de"
 sectionPagesMenu = "nav"
 publishDir = "docs"
+pluralizelisttitles= "false"
 
 [languages]
   [languages.de]
