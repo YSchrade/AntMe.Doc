@@ -1,0 +1,39 @@
+@import "./_variables"
+
+
+#contentlist
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-around
+
+    .contentItem
+        background-color: $main-color
+        margin: 4rem 2rem 0 2rem
+        min-width: 30rem
+        padding: 0
+        flex-grow: 1
+        flex-basis: calc( 25% - 32rem )
+        @extend .shadow-ur
+    
+
+
+        &:hover
+            box-shadow: 0 0 8px lighten($accent-color, 20%)
+
+        a
+            text-decoration: none
+
+        h1
+            margin: 0
+            padding: 2rem
+                    
+        p
+            margin: 0
+            padding: 0 3rem 3rem
+
+
+@media screen and (min-width: 40em) 
+   
+    .contentItem 
+     
