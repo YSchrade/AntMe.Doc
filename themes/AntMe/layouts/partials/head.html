@@ -5,7 +5,7 @@
     <meta name="description" content="{{ .Description }}">
     <base href="{{ .Site.BaseURL }}">
     
-    {{ $styles := resources.Get "sass/main.sass" | toCSS }}
+    {{ $styles := resources.Get "sass/main.sass" | toCSS (dict "outputStyle" "compressed")}}
     <link rel="stylesheet" href="{{ $styles.Permalink }}" media="screen">
-    <link rel="shortcut icon" href="images/antme.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/images/antme.ico" type="image/x-icon">
 </head>
