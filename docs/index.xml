@@ -31,11 +31,38 @@ Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit d
     </item>
     
     <item>
+      <title>Nahrung</title>
+      <link>/tutorials/nahrung.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/nahrung.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Entwicklungsumgebung</title>
       <link>/installation/entwicklungsumgebung.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/installation/entwicklungsumgebung.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kampf</title>
+      <link>/tutorials/kampf.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/kampf.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Makierungen</title>
+      <link>/tutorials/makierungen.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/makierungen.html</guid>
       <description></description>
     </item>
     

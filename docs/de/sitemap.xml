@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>/tutorials/nahrung.html</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <xhtml:link
                 rel="alternate"
@@ -44,6 +48,14 @@
   
   <url>
     <loc>/installation.html</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorials/kampf.html</loc>
+  </url>
+  
+  <url>
+    <loc>/tutorials/makierungen.html</loc>
   </url>
   
   <url>
