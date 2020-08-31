@@ -48,7 +48,7 @@ Mit diesem Fenster erhältst du die Bestätigung, dass du eine neue Ameisenvorla
 
 ![](/images/Spielstart/VsMain.jpg)
 
-Wow, das sind ganz schön viele Schaltflächen! Das rührt daher, dass das Microsoft Visual Studio eben schon ein richtig professionelles Werkzeug (=Tool) für Programmierer ist. Mit solchen Entwicklungsumgebungen hat man so ziemlich alles an Software erschaffen, was man sich vorstellen kann – zum Beispiel Microsoft Windows als Betriebssystem. Aber keine Angst! Für uns wichtig sind jetzt nur einige dieser Schaltflächen, nämlich das grosse Fenster in der Mitte (der Code Editor) sowie das kleine Fenster rechts (der Solution Explorer). 
+Wow, das sind ganz schön viele Schaltflächen! Das rührt daher, dass das Microsoft Visual Studio eben schon ein richtig professionelles Werkzeug (=Tool) für Programmierer ist. Mit solchen Entwicklungsumgebungen hat man so ziemlich alles an Software erschaffen, was man sich vorstellen kann – zum Beispiel Microsoft Windows als Betriebssystem. Aber keine Angst! Für uns wichtig sind jetzt nur einige dieser Schaltflächen, nämlich das große Fenster in der Mitte (der Code Editor) sowie das kleine Fenster rechts (der Solution Explorer). 
 
 Jetzt sind wir soweit. Klicke den grünen Dreieckssymbol des Startbuttons, um deine frisch erschaffene Kolonie zu laden.
 
