@@ -5,6 +5,8 @@
 @import "card.sass"
 @import "./list"
 @import "./site"
+@import "./footer"
+@import "./impressum"
 
 *
     font-size: 14pt
@@ -17,6 +19,16 @@ h1
     font-family: PatrickHand
     font-size: $h1-font-size
     color: $accent-color
+    margin: 0
+    padding: 2rem
+
+h2
+    font-family: PatrickHand
+    font-size: $h2-font-size
+    color: $accent-color
+    margin: 0
+    padding: 2rem
+
 
 .shadow
     box-shadow: 0 5px 8px  lighten(black, 80%)
@@ -40,6 +52,7 @@ body, html
 
 #content
     flex-grow: 1
-        flex-shrink: 1
-        flex-basis: auto
+    flex-shrink: 1
+    flex-basis: auto
     width: 100%
+    padding: 2rem

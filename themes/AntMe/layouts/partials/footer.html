@@ -1,0 +1,17 @@
+<footer>
+    <nav>
+        <ul>
+            {{ range .Site.Menus.footer }}
+            <li>
+                <a href="{{ .URL | relLangURL }}">
+                    {{ .Name }}
+                </a>
+            </li>
+            {{ end }}
+        </ul>
+    </nav>
+
+    <div id="socialmedia">
+       
+    </div>
+</footer>
