@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AntMe! Dokumentation</title>
+    <link>/</link>
+    <description>Recent content on AntMe! Dokumentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spielstart</title>
+      <link>/tutorials/spielstart.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/spielstart.html</guid>
+      <description>Hier erfährst du, wie du mit dem eigentlichen Spiel beginnst, indem du deine Ameise erschaffst und sie in ihrer Welt platzierst.
+Die nachfolgenden Erklärungen und Bilder beziehen sich auf das Visual Studio 2013 als Entwicklungsumgebung sowie die beiden Frameworks .NET Framework 4 und .XNA Framework.
+Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit den Programmiersprachen C# oder VB.NET entwickelt worden sind. Das .XNA-Framework ermöglicht die 3D-Ansicht des Spiels.</description>
+    </item>
+    
+    <item>
+      <title>Nahrung</title>
+      <link>/tutorials/nahrung.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/nahrung.html</guid>
+      <description>In dieser Lektion lernst du, wie du deinen Ameisen beibringst, sich zu bewegen und Nahrung zu sammeln.
+Diese Vorgaben geben wir in der Entwicklungsumgebung ein – wir programmieren die Ameisen, das auszuführen, was wir ihnen vorgeben.
+Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung eine sogenannte Klasse. Darunter versteht man einen Plan, der festlegt, wie sich mehrere ähnliche Objekte verhalten sollen. Dieser Plan beschreibt Attribute (Eigenschaften) und Methoden (Verhaltensweisen) der Objekte.</description>
+    </item>
+    
+    <item>
+      <title>Entwicklungsumgebung</title>
+      <link>/installation/entwicklungsumgebung.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/installation/entwicklungsumgebung.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Impressum</title>
+      <link>/impressum.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/impressum.html</guid>
+      <description>Wenn ihr Fragen habt, Anregungen wie wir AntMe! noch besser machen können oder etwas auf dieser Seite vermisst, dann schreibt uns. Wir sind immer für euch da und freuen uns über jegliches Feedback.
+info@antme.net
+AntMe! GmbH Rassosiedlung 55 82284 Grafrath
+Spenden Das AntMe! Projekt und dessen Weiterentwicklung ist aktuell sehr auf externe Unterstützung angewiesen. Wenn Ihr uns bei unserer Arbeit unterstützen möchtet, ist eure Hilfe sehr herzlich willkommen:</description>
+    </item>
+    
+    <item>
+      <title>Kampf</title>
+      <link>/tutorials/kampf.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/kampf.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Makierungen</title>
+      <link>/tutorials/makierungen.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tutorials/makierungen.html</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

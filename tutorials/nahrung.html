@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html><head>
+    <title> Nahrung </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Die erste Ameise war bislang recht untätig, weshalb diese Lektion dir zeigt, wie man die Ameisen auf Nahrungssuche schickt.">
+    <base href="">
+    
+    
+    <link rel="stylesheet" href="../sass/main.css" media="screen">
+    <link rel="shortcut icon" href="../images/antme.ico" type="image/x-icon">
+</head><body>
+        <header>
+    <nav>
+        
+        <ul>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../index.html" class="">
+                    Home
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../installation.html" class="">
+                    Installation
+                </a>
+            </li>
+            
+            
+            
+            
+            
+            <li>
+                <a href="../tutorials.html" class=" isActive ">
+                    Tutorials
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <div id="languageswitch">
+        <ul>
+            
+            
+            
+            <li>
+                <a class=" isActive " href="../index.html">de</a>
+            </li>
+            
+            
+            
+            <li>
+                <a class="" href="../en/index.html">en</a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <div id="content">
+
+<div id="site">
+    <nav id="sitenav">
+        <h1>Tutorials</h1>
+        <ul>
+            
+            <li>
+                <a href="../tutorials/spielstart.html" class="">Spielstart</a>
+            </li>
+            
+            <li>
+                <a href="../tutorials/nahrung.html" class="isActive">Nahrung</a>
+            </li>
+            
+            <li>
+                <a href="../tutorials/kampf.html" class="">Kampf</a>
+            </li>
+            
+            <li>
+                <a href="../tutorials/makierungen.html" class="">Makierungen</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <div id="inner">
+        <h1>Nahrung</h1>
+        <p>In dieser Lektion lernst du, wie du deinen Ameisen beibringst, sich zu bewegen und Nahrung zu sammeln.</p>
+<p>Diese Vorgaben geben wir in der Entwicklungsumgebung ein – wir programmieren die Ameisen, das auszuführen, was wir ihnen vorgeben.</p>
+<p>Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung eine sogenannte Klasse. Darunter versteht man einen Plan, der festlegt, wie sich mehrere ähnliche Objekte verhalten sollen. Dieser Plan beschreibt Attribute (Eigenschaften) und Methoden (Verhaltensweisen) der Objekte.</p>
+<p>Bei AntMe! sind Objekte die Ameisen. Indem wir ihre Klasse bearbeiten, legen wir ihre Verhaltensweisen fest. Zunächst wollen wir sie dazu bringen, sich zu bewegen.
+Suche dazu auf der rechten Seite im Solution Explorer die Zeile AlphaClass.cs und klicke sie.</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_1.png" alt=""></p>
+<p>Damit öffnest du im Code Editor in der Bildschirmmitte die programmierbare Klasse unserer Kolonie „Alpha“. Im unteren Teil siehst du die fünf Blöcke Kasten, Fortbewegung, Nahrung, Kommunikation und Kampf. Einen solchen Block nennt man „Methode“. Als Methoden bezeichnet man Unterprogramme, die das Verhalten von Objekten beschreiben. Indem man einem einzelnen Objekt vorgibt, wie er sich verhalten soll, können Objekte untereinander in Verbindung treten. Genau das sollen unsere Ameisen jetzt leisten, sie sollen ausschwärmen und nach Nahrung suchen.</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_2.png" alt=""></p>
+<p>Fortbewegung gibt den Ameisen vor, wie sie sich bewegen sollen. Klicke nun auf das kleine Pluszeichen links von Fortbewegung und schreibe den folgenden Programmbefehl bei „Wartet ( )“ in die Zeile zwischen die { }:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">    <span style="color:#00f">public</span> <span style="color:#00f">override</span> <span style="color:#00f">void</span> Warte()
+    {
+        GeheGeradeaus();
+    }
+</code></pre></td></tr></table>
+</div>
+</div><p>Das sieht dann im Editor insgesamt so aus:</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_4.png" alt=""></p>
+<p>Klicke nun auf die grüne „Play“-Taste in der Entwicklungsumgebung, um die AntMe!-3D-Ansicht zu starten. Jetzt wirkt sich dein Programmierbefehl „gehe gerade aus“ in der Spielwelt aus. Schon schwärmen die Ameisen aus dem Nest und verteilen sich im Sandkasten.</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_5.png" alt=""></p>
+<p>Im Moment rennen unsere Ameisen ziellos durch die Gegend. Dies änderst du, indem du sie auf Nahrungssuche schickst.</p>
+<p>Suche zunächst die Methode „Sieht“ in dem Bereich Nahrung. Sie sieht so aus:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">    <span style="color:#00f">public</span> <span style="color:#00f">override</span> <span style="color:#00f">void</span> Sieht (Zucker zucker)
+    {
+
+    }
+</code></pre></td></tr></table>
+</div>
+</div><p>Ändere die Methode nun wie folgt ab:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">6
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">7
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">    <span style="color:#00f">public</span> <span style="color:#00f">override</span> <span style="color:#00f">void</span> Sieht (Zucker zucker)
+    {
+        <span style="color:#00f">if</span>(AktuelleLast == 0)
+        {
+            GeheZuZiel(zucker);
+        }
+    }
+</code></pre></td></tr></table>
+</div>
+</div><p>Damit gibst du deinen Ameisen vor, dass sie sich zu einem Zuckerhaufen bewegen sollen, sobald sie ihn sehen. Dies tun sie aber nur unter der Bedingung, wenn („if“) ihre aktuelle Last = 0 ist, also wenn sie noch keine Last tragen.</p>
+<p>Suche dir nun die Methode „Sieht“, die für das Obst zuständig ist. Ändere sie genau so ab wie auf dem letzten Bild beschrieben, außer dass du in die Klammern (obst) anstelle von (zucker) setzt. Der Unterschied besteht darin, dass die Ameisen jetzt zu einem Obststück laufen anstelle eines Zuckerhaufens. Auch das passiert unter der Voraussetzung, dass sie noch keine Last geladen haben.</p>
+<p>Im Editor schaut es so aus:</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_8.png" alt=""></p>
+<p>Jetzt laufen deine Ameisen zu einem Zuckerhaufen oder einem Obststück, sobald sie es sehen. Sobald deine Ameisen an einer Nahrungsquelle angelangt sind, passiert aber noch nichts. Wir sollten jetzt den Ameisen mitteilen, was sie tun sollen, wenn sie an einer Nahrungsquelle angekommen sind.</p>
+<p>Suche die Methode „ZielErreicht“, die für den Zucker zuständig ist. Füge ihr anschließend die folgenden Zeilen hinzu:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">Nimm(zucker);
+GeheZuBau();
+</code></pre></td></tr></table>
+</div>
+</div><p>ebenfalls ab, indem du in die Klammern (obst) einsetzt anstatt (zucker).</p>
+<p>Im Editor sieht es wie folgt aus:</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_10.png" alt=""></p>
+<p>Jetzt suchen deine Ameisen nach Nahrung ( Zucker und Obst) und laufen dorthin, sobald sie sie sehen. Wenn sie dort angekommen sind, nehmen sie Nahrung auf und tragen sie zurück in den Bau.</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_11.png" alt=""></p>
+<p>Dafür hast du acht Zeilen an Quelltext (auch Quellcode genannt) geschrieben.
+Quelltext nennt man den in einer Programmiersprache geschriebenen Text eines Computerprogramms, das in Maschinensprache übersetzt werden kann. Diese Übersetzung gibt dem Computer vor, was er ausführen soll.
+Einen solchen Übersetzer nennt man Compiler (lat. für compilare = anhäufen). Ein Compiler ist also eine Computeranwendung, die ein anderes Programm, das in einer bestimmten Programmiersprache geschrieben ist, so übersetzt, dass ein Computer sie ausführen kann.</p>
+<p><img src="../images/Tutorials/Nahrung/Lektion4_12.png" alt=""></p>
+<p>Wenn du dem Spiel genau zusiehst, wirst du bemerken, dass immer neue Ameisen zu einem Obststück hinlaufen, auch wenn schon sehr viele Ameisen es tragen. Dieses Verhalten kannst du noch verbessern.
+Suche die Methode „Sieht“ für Obst. Ändere die Zeile so ab, dass sie so aussieht:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#00f">if</span>(AktuelleLast==0 &amp;&amp; BrauchtNochTräger(obst))
+</code></pre></td></tr></table>
+</div>
+</div><p>Suche die Methode „ZielErreicht“ für Obst. Füge jetzt eine neue „if“-Bedingung hinzu:</p>
+<div class="highlight"><div style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4">
+<table style="border-spacing:0;padding:0;margin:0;border:0;width:auto;overflow:auto;display:block;"><tr><td style="vertical-align:top;padding:0;margin:0;border:0;">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">1
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">2
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">3
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">4
+</span><span style="margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f">5
+</span></code></pre></td>
+<td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+<pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#"><span style="color:#00f">if</span>(BrauchtNochTräger(obst))
+{
+    Nimm(obst);
+    GeheZuBau();
+}
+</code></pre></td></tr></table>
+</div>
+</div><p>In der „Sieht“ Methode haben wir überprüft, ob das Obststück noch Ameisen zum Tragen benötigt. In der „ZielErreicht“ Methode überprüfen wir das noch einmal mit „if-BrauchtNochTräger“. Der Grund für diese Doppelung: es kann sein, dass das Obststück noch einen Träger benötigt, wenn die Ameise es sieht. Wenn die Ameise am Obststück etwas später ankommt, kann aber schon eine andere Ameise an ihrer Stelle hinzugekommen sein und hilft beim Tragen.
+Damit hast du deinen Ameisen beigebracht, wie sie sich Nahrung in Form von Obst und Zucker besorgen und in ihren Bau tragen können. Für jede zum Bau transportierte Zuckereinheit erhältst du übrigens 1 Punkt und für jeden Apfel als Obststück 250 Punkte.</p>
+
+    </div>
+</div>
+
+        </div><footer>
+    <nav>
+        <ul>
+            
+            <li>
+                <a href="../impressum.html">
+                    Impressum
+                </a>
+            </li>
+            
+        </ul>
+    </nav>
+
+    <div id="socialmedia">
+       
+    </div>
+</footer></body>
+</html>
