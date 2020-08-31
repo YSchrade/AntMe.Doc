@@ -1,5 +1,7 @@
 {{ define "main" }}
-{{ range .Pages }}
+<div id="contentlist">
+    {{ range .Pages }}
     {{ partial "contentItem" . }}
-{{ end }}
+    {{ end }}
+</div>
 {{ end }}

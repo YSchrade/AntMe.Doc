@@ -3,14 +3,22 @@
 #site
     width: 100%
     display: flex
+    height: 100%
     flex-direction: row
 
     #sitenav
         height: fit-content
-        background-color: white
+        position: sticky
+        top: 2rem
+        display: none
+        width: 20%
+        min-width: fit-content
         margin: 2rem
         padding: 2rem
+        background-color: white
         @extend .shadow-ur
+        @media screen and ( min-width: 950px )
+            display: inline
 
         .isActive
             color: $accent-color
@@ -27,12 +35,13 @@
 
                 a
                     text-decoration: none
+                    padding: 2rem
                     
             
 
     #content
         background-color: white
-        margin: 2rem
+        margin: 2rem 
         @extend .shadow-ur
         padding: 2rem
 
@@ -42,7 +51,8 @@
             img
                 display: block
                 margin: auto
-                padding: 2rem
+                max-width: 100%
+                padding: 2rem 0
 
         h1 
             margin: 0
