@@ -7,10 +7,6 @@
   </url>
   
   <url>
-    <loc>/tutorials/lektion2.html</loc>
-  </url>
-  
-  <url>
     <loc>/tutorials/nahrung.html</loc>
   </url>
   
@@ -44,6 +40,10 @@
   
   <url>
     <loc>/installation/entwicklungsumgebung.html</loc>
+  </url>
+  
+  <url>
+    <loc>/impressum.html</loc>
   </url>
   
   <url>
