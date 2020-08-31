@@ -24,3 +24,14 @@ pluralizelisttitles= "false"
     name = "Home"
     url = "/index.html"
     weight = 1
+
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "vs"
+    tabWidth = 4
