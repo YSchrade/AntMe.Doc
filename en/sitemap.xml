@@ -3,20 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/tutorials/spielstart.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/tutorials/spielstart.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tutorials/spielstart.html"
-                />
-  </url>
-  
-  <url>
     <loc>/en/installation/development-environment/vs2019.html</loc>
   </url>
   
@@ -31,48 +17,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/installation/antme/v1.7.4.html"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tutorials/nahrung.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/tutorials/nahrung.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tutorials/nahrung.html"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tutorials/makierungen.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/tutorials/makierungen.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tutorials/makierungen.html"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tutorials/kampf.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/tutorials/kampf.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tutorials/kampf.html"
                 />
   </url>
   
@@ -129,20 +73,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="/en/tags.html"
-                />
-  </url>
-  
-  <url>
-    <loc>/en/tutorials.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/tutorials.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tutorials.html"
                 />
   </url>
   

@@ -11,17 +11,6 @@
     
     
     <item>
-      <title>Spielstart</title>
-      <link>/en/tutorials/spielstart.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tutorials/spielstart.html</guid>
-      <description>Hier erfährst du, wie du mit dem eigentlichen Spiel beginnst, indem du deine Ameise erschaffst und sie in ihrer Welt platzierst.
-Die nachfolgenden Erklärungen und Bilder beziehen sich auf das Visual Studio 2013 als Entwicklungsumgebung sowie die beiden Frameworks .NET Framework 4 und .XNA Framework.
-Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit den Programmiersprachen C# oder VB.NET entwickelt worden sind. Das .XNA-Framework ermöglicht die 3D-Ansicht des Spiels.</description>
-    </item>
-    
-    <item>
       <title>Visual Studio</title>
       <link>/en/installation/development-environment/vs2019.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,35 +26,6 @@ Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit d
       
       <guid>/en/installation/antme/v1.7.4.html</guid>
       <description>1.7.4</description>
-    </item>
-    
-    <item>
-      <title>Nahrung</title>
-      <link>/en/tutorials/nahrung.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tutorials/nahrung.html</guid>
-      <description>In dieser Lektion lernst du, wie du deinen Ameisen beibringst, sich zu bewegen und Nahrung zu sammeln.
-Diese Vorgaben geben wir in der Entwicklungsumgebung ein – wir programmieren die Ameisen, das auszuführen, was wir ihnen vorgeben.
-Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung eine sogenannte Klasse. Darunter versteht man einen Plan, der festlegt, wie sich mehrere ähnliche Objekte verhalten sollen. Dieser Plan beschreibt Attribute (Eigenschaften) und Methoden (Verhaltensweisen) der Objekte.</description>
-    </item>
-    
-    <item>
-      <title>Makierungen</title>
-      <link>/en/tutorials/makierungen.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tutorials/makierungen.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Kampf</title>
-      <link>/en/tutorials/kampf.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/en/tutorials/kampf.html</guid>
-      <description>HinweisTest Hinweis  </description>
     </item>
     
     <item>
