@@ -22,6 +22,24 @@ Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit d
     </item>
     
     <item>
+      <title>Visual Studio</title>
+      <link>/installation/entwicklungsumgebung/vs2019.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/installation/entwicklungsumgebung/vs2019.html</guid>
+      <description>vs2019</description>
+    </item>
+    
+    <item>
+      <title>AntMe!</title>
+      <link>/installation/antme/v1.7.4.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/installation/antme/v1.7.4.html</guid>
+      <description>1.7.4</description>
+    </item>
+    
+    <item>
       <title>Nahrung</title>
       <link>/tutorials/nahrung.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -33,24 +51,12 @@ Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung e
     </item>
     
     <item>
-      <title>Entwicklungsumgebung</title>
-      <link>/installation/entwicklungsumgebung.html</link>
+      <title>Makierungen</title>
+      <link>/tutorials/makierungen.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung.html</guid>
+      <guid>/tutorials/makierungen.html</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Impressum</title>
-      <link>/impressum.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/impressum.html</guid>
-      <description>Wenn ihr Fragen habt, Anregungen wie wir AntMe! noch besser machen können oder etwas auf dieser Seite vermisst, dann schreibt uns. Wir sind immer für euch da und freuen uns über jegliches Feedback.
-info@antme.net
-AntMe! GmbH Rassosiedlung 55 82284 Grafrath
-Spenden Das AntMe! Projekt und dessen Weiterentwicklung ist aktuell sehr auf externe Unterstützung angewiesen. Wenn Ihr uns bei unserer Arbeit unterstützen möchtet, ist eure Hilfe sehr herzlich willkommen:</description>
     </item>
     
     <item>
@@ -59,16 +65,16 @@ Spenden Das AntMe! Projekt und dessen Weiterentwicklung ist aktuell sehr auf ext
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tutorials/kampf.html</guid>
-      <description></description>
+      <description>HinweisTest Hinweis  </description>
     </item>
     
     <item>
-      <title>Makierungen</title>
-      <link>/tutorials/makierungen.html</link>
+      <title>Visual Studio</title>
+      <link>/installation/entwicklungsumgebung/vs2017.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/makierungen.html</guid>
-      <description></description>
+      <guid>/installation/entwicklungsumgebung/vs2017.html</guid>
+      <description>vs2017</description>
     </item>
     
   </channel>
