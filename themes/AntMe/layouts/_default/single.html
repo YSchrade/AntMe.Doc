@@ -2,12 +2,17 @@
 {{ $current := . }}
 <div id="site">
     <nav id="sitenav">
+        {{ $addedPages := slice }}
         <h1>{{ .CurrentSection.Name }}</h1>
         <ul>
-            {{ range .CurrentSection.Pages }}
+            {{ range (sort (sort .CurrentSection.Pages ".Params.version" "desc") ".Title" "asc").ByWeight }}
+            {{ if not (in $addedPages .Title) }}
+            {{ $addedPages = $addedPages | append .Title }}
             <li>
                 <a href="{{ .Permalink }}" class="{{ if eq $current . }}isActive{{ end }}">{{ .Name }}</a>
-            </li>
+            </li>    
+            {{ end }}
+            
             {{ end }}
         </ul>
     </nav>
@@ -15,5 +20,26 @@
         <h1>{{ .Title }}</h1>
         {{ .Content }}
     </div>
+
+    {{ $current := . }}
+    <nav id="versionnav" class="{{ if eq $current.Params.version  nil}}noContent{{ end }}">
+        <h1>Versionen</h1>
+        <ul>
+            {{ range sort (where .CurrentSection.Pages ".Title" $current.Title) ".Params.version" "asc" }}
+            {{$page := .}}
+            <li>
+                <a href="{{ $page.Permalink }}" class="{{ if eq $current $page}}isActive{{ end }}">
+                    {{ range $index, $element := $page.Params.Version  }}
+                        {{ if and (ne (len $page.Params.Version) 1) (eq $index 0) }}
+                            {{.}} -
+                        {{else }}
+                            {{ . }}
+                        {{ end }}
+                    {{ end }}
+                </a>
+            </li>              
+            {{ end }}
+        </ul>
+    </nav>
 </div>
 {{ end }}

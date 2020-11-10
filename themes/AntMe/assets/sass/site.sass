@@ -13,7 +13,7 @@
         display: none
         width: 20%
         min-width: fit-content
-        margin: 2rem 2rem 2rem 0
+        margin: 0 2rem 2rem 0
         padding: 2rem
         background-color: white
         @extend .shadow-ur
@@ -37,11 +37,23 @@
                     text-decoration: none
                     padding: 2rem
                     
-            
+
+    #versionnav
+        background-color: $main-color
+        margin: 0 0 0 2rem
+        padding: 2rem
+        width: 20%
+        @extend .shadow-ur
+        height: fit-content
+        @extend #sitenav
+
+        &.noContent
+            display: none
+        .isActive
+            color: $accent-color
 
     #inner
         background-color: white
-        margin: 2rem 0
         width: 100%
         flex-grow: 1
         flex-shrink: 1
@@ -64,5 +76,4 @@
 
         .highlight
             box-shadow: 0 0 10px lighten(black, 70%)
-            margin: 0 3rem 
-                
+            margin: 0 3rem       

@@ -1,0 +1,14 @@
+[
+    {
+        "header": "Installation",
+        "imgSource": "/images/150px-Skilllevel1.png",
+        "content": "Before you can take command of your colony, you need to install AntMe! on your computer. That means you need to install the game itself as well as a few extra bits that help it run (what programmers call \"dependencies\"). So you will also need to download and install a development environment, which is what you will use to write and edit the code itself. And you will need a couple of frameworks, which are sort of like building blocks that programmers use.",
+        "link": "/en/installation.html"
+    },
+    {
+        "header": "Tutorials",
+        "imgSource": "images/150px-Skilllevel2.png",
+        "content": "Sobald du dir ein Bild vom Spiel gemacht hast, kann es nun los gehen mit der Ameisen Programmierung. Ein guter Einstieg sind hier sicher die Tutorials.",
+        "link": "tutorials.html"
+    }
+]
