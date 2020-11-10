@@ -1,4 +1,4 @@
-languageCode = "en-us"
+languageCode = "de-de"
 title = "AntMe! Dokumentation"
 RelativeUrls = true
 uglyurls = true
@@ -7,6 +7,7 @@ DefaultContentLanguage = "de"
 sectionPagesMenu = "nav"
 publishDir = "docs"
 pluralizelisttitles= "false"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [languages]
   [languages.de]
