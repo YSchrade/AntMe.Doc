@@ -8,7 +8,7 @@
     {
         "header": "Tutorials",
         "imgSource": "images/150px-Skilllevel2.png",
-        "content": "Sobald du dir ein Bild vom Spiel gemacht hast, kann es nun los gehen mit der Ameisen Programmierung. Ein guter Einstieg sind hier sicher die Tutorials.",
-        "link": "tutorials.html"
+        "content": "Once you have gotten acquainted with the game you can start programming your ants. The tutorial lessons are a great place to begin.",
+        "link": "/en/tutorials.html"
     }
 ]
