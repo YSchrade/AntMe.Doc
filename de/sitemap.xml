@@ -51,20 +51,6 @@
   </url>
   
   <url>
-    <loc>/categories.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/categories.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/categories.html"
-                />
-  </url>
-  
-  <url>
     <loc>/impressum.html</loc>
   </url>
   
@@ -79,20 +65,6 @@
                 rel="alternate"
                 hreflang="de"
                 href="/installation.html"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags.html</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags.html"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="/tags.html"
                 />
   </url>
   
