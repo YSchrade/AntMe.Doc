@@ -12,10 +12,12 @@ pluralizelisttitles= "false"
   [languages.de]
     title = "AntMe! Dokumentation"
     languageName = "Deutsch"
+    contentDir = "content/de"
     weight = 1
   [languages.en]
     title = "AntMe! Documentation"
     languageName = "English"
+    contentDir = "content/en"
     weight = 2
 
 

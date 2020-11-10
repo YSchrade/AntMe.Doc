@@ -5,11 +5,11 @@
         {{ $addedPages := slice }}
         <h1>{{ .CurrentSection.Name }}</h1>
         <ul>
-            {{ range (sort (sort .CurrentSection.Pages ".Params.version" "desc") ".Title" "asc").ByWeight }}
+            {{ range (sort .CurrentSection.Pages ".Title" "asc").ByWeight }}
             {{ if not (in $addedPages .Title) }}
             {{ $addedPages = $addedPages | append .Title }}
             <li>
-                <a href="{{ .Permalink }}" class="{{ if eq $current . }}isActive{{ end }}">{{ .Name }}</a>
+                <a href="{{ .Permalink }}" class="{{ if eq $current.Name .Name }}isActive{{ end }}">{{ .Name }}</a>
             </li>    
             {{ end }}
             
