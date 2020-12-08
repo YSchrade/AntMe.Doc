@@ -3,9 +3,11 @@
 footer
     background-color: $main-color 
     box-shadow: -5px 0 10px lighten(black, 80%)
+    justify-content: space-between
     width: 100%
     display: flex
     height: 8rem
+    padding: 3rem
     align-items: center
 
     nav
@@ -17,4 +19,30 @@ footer
                 a
                     text-decoration: none
 
-        
+    .isActive
+        color: $accent-color
+
+    #languageswitch
+            
+
+        ul
+            display: flex
+            flex-direction: row
+            align-items: center
+            height: 100%
+            margin: 0
+            padding: 0 2rem 0 0
+
+            li
+                list-style: none
+                align-items: center
+                border-right: 1px $font-color solid
+
+                &:last-child
+                        border: none
+                    
+                a
+                    text-decoration: none
+                    padding: 0.5rem
+                    align-items: center
+                    text-transform: uppercase

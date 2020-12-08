@@ -7,11 +7,14 @@
     flex-direction: row
 
     #sitenav
+        height: -moz-fit-content
         height: fit-content
+        position: -webkit-sticky
         position: sticky
         top: 2rem
         display: none
         width: 20%
+        min-width: -moz-fit-content
         min-width: fit-content
         margin: 0 2rem 2rem 0
         padding: 2rem
@@ -44,6 +47,7 @@
         padding: 2rem
         width: 20%
         @extend .shadow-ur
+        height: -moz-fit-content
         height: fit-content
         @extend #sitenav
 
