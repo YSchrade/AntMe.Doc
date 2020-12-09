@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>AntMe! Dokumentation</title>
-    <link>/api/gehegeradeaus/</link>
+    <link>/api/gehegeradeaus.html</link>
     <description>Recent content on AntMe! Dokumentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>GeheGeradeaus</title>
-      <link>/api/gehegeradeaus/1.0.0/</link>
+      <link>/api/gehegeradeaus/1.0.0.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/gehegeradeaus/1.0.0/</guid>
+      <guid>/api/gehegeradeaus/1.0.0.html</guid>
       <description>Parameter Test für die 1.6.0</description>
     </item>
     
     <item>
       <title>GeheGeradeaus</title>
-      <link>/api/gehegeradeaus/1.7.4/</link>
+      <link>/api/gehegeradeaus/1.7.4.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/gehegeradeaus/1.7.4/</guid>
+      <guid>/api/gehegeradeaus/1.7.4.html</guid>
       <description>Parameter entfernung (optional)</description>
     </item>
     

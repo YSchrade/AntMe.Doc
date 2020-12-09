@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Installation on AntMe! Dokumentation</title>
-    <link>/installation/</link>
+    <link>/installation.html</link>
     <description>Recent content in Installation on AntMe! Dokumentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
@@ -12,28 +12,28 @@
     
     <item>
       <title>Visual Studio</title>
-      <link>/installation/entwicklungsumgebung/vs2019/</link>
+      <link>/installation/entwicklungsumgebung/vs2019.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung/vs2019/</guid>
+      <guid>/installation/entwicklungsumgebung/vs2019.html</guid>
       <description>vs2019</description>
     </item>
     
     <item>
       <title>AntMe!</title>
-      <link>/installation/antme/v1.7.4/</link>
+      <link>/installation/antme/v1.7.4.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/antme/v1.7.4/</guid>
+      <guid>/installation/antme/v1.7.4.html</guid>
       <description>1.7.4</description>
     </item>
     
     <item>
       <title>Visual Studio</title>
-      <link>/installation/entwicklungsumgebung/vs2017/</link>
+      <link>/installation/entwicklungsumgebung/vs2017.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung/vs2017/</guid>
+      <guid>/installation/entwicklungsumgebung/vs2017.html</guid>
       <description>vs2017</description>
     </item>
     

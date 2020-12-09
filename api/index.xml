@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>API on AntMe! Dokumentation</title>
-    <link>/api/</link>
+    <link>/api.html</link>
     <description>Recent content in API on AntMe! Dokumentation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de-de</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>API</title>
-      <link>/api/1.6.0/</link>
+      <link>/api/1.6.0.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/1.6.0/</guid>
+      <guid>/api/1.6.0.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>API</title>
-      <link>/api/1.7.4/</link>
+      <link>/api/1.7.4.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/1.7.4/</guid>
+      <guid>/api/1.7.4.html</guid>
       <description></description>
     </item>
     

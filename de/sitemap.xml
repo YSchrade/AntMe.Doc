@@ -3,41 +3,41 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tutorials/spielstart/</loc>
+    <loc>/tutorials/spielstart.html</loc>
   </url>
   
   <url>
-    <loc>/installation/entwicklungsumgebung/vs2019/</loc>
+    <loc>/installation/entwicklungsumgebung/vs2019.html</loc>
   </url>
   
   <url>
-    <loc>/installation/antme/v1.7.4/</loc>
+    <loc>/installation/antme/v1.7.4.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/antme/v1.7.4/"
+                href="/en/installation/antme/v1.7.4.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/installation/antme/v1.7.4/"
+                href="/installation/antme/v1.7.4.html"
                 />
   </url>
   
   <url>
-    <loc>/tutorials/nahrung/</loc>
+    <loc>/tutorials/nahrung.html</loc>
   </url>
   
   <url>
-    <loc>/tutorials/makierungen/</loc>
+    <loc>/tutorials/makierungen.html</loc>
   </url>
   
   <url>
-    <loc>/tutorials/kampf/</loc>
+    <loc>/tutorials/kampf.html</loc>
   </url>
   
   <url>
-    <loc>/api/gehegeradeaus/</loc>
+    <loc>/api/gehegeradeaus.html</loc>
   </url>
   
   <url>
@@ -55,49 +55,49 @@
   </url>
   
   <url>
-    <loc>/api/1.6.0/</loc>
+    <loc>/api/1.6.0.html</loc>
   </url>
   
   <url>
-    <loc>/api/1.7.4/</loc>
+    <loc>/api/1.7.4.html</loc>
   </url>
   
   <url>
-    <loc>/api/</loc>
+    <loc>/api.html</loc>
   </url>
   
   <url>
-    <loc>/api/gehegeradeaus/1.0.0/</loc>
+    <loc>/api/gehegeradeaus/1.0.0.html</loc>
   </url>
   
   <url>
-    <loc>/api/gehegeradeaus/1.7.4/</loc>
+    <loc>/api/gehegeradeaus/1.7.4.html</loc>
   </url>
   
   <url>
-    <loc>/impressum/</loc>
+    <loc>/impressum.html</loc>
   </url>
   
   <url>
-    <loc>/installation/</loc>
+    <loc>/installation.html</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/"
+                href="/en/installation.html"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/installation/"
+                href="/installation.html"
                 />
   </url>
   
   <url>
-    <loc>/tutorials/</loc>
+    <loc>/tutorials.html</loc>
   </url>
   
   <url>
-    <loc>/installation/entwicklungsumgebung/vs2017/</loc>
+    <loc>/installation/entwicklungsumgebung/vs2017.html</loc>
   </url>
   
 </urlset>

@@ -12,10 +12,10 @@
     
     <item>
       <title>Spielstart</title>
-      <link>/tutorials/spielstart/</link>
+      <link>/tutorials/spielstart.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/spielstart/</guid>
+      <guid>/tutorials/spielstart.html</guid>
       <description>Hier erfährst du, wie du mit dem eigentlichen Spiel beginnst, indem du deine Ameise erschaffst und sie in ihrer Welt platzierst.
 Die nachfolgenden Erklärungen und Bilder beziehen sich auf das Visual Studio 2013 als Entwicklungsumgebung sowie die beiden Frameworks .NET Framework 4 und .XNA Framework.
 Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit den Programmiersprachen C# oder VB.NET entwickelt worden sind. Das .XNA-Framework ermöglicht die 3D-Ansicht des Spiels.</description>
@@ -23,28 +23,28 @@ Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit d
     
     <item>
       <title>Visual Studio</title>
-      <link>/installation/entwicklungsumgebung/vs2019/</link>
+      <link>/installation/entwicklungsumgebung/vs2019.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung/vs2019/</guid>
+      <guid>/installation/entwicklungsumgebung/vs2019.html</guid>
       <description>vs2019</description>
     </item>
     
     <item>
       <title>AntMe!</title>
-      <link>/installation/antme/v1.7.4/</link>
+      <link>/installation/antme/v1.7.4.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/antme/v1.7.4/</guid>
+      <guid>/installation/antme/v1.7.4.html</guid>
       <description>1.7.4</description>
     </item>
     
     <item>
       <title>Nahrung</title>
-      <link>/tutorials/nahrung/</link>
+      <link>/tutorials/nahrung.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/nahrung/</guid>
+      <guid>/tutorials/nahrung.html</guid>
       <description>In dieser Lektion lernst du, wie du deinen Ameisen beibringst, sich zu bewegen und Nahrung zu sammeln.
 Diese Vorgaben geben wir in der Entwicklungsumgebung ein – wir programmieren die Ameisen, das auszuführen, was wir ihnen vorgeben.
 Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung eine sogenannte Klasse. Darunter versteht man einen Plan, der festlegt, wie sich mehrere ähnliche Objekte verhalten sollen. Dieser Plan beschreibt Attribute (Eigenschaften) und Methoden (Verhaltensweisen) der Objekte.</description>
@@ -52,64 +52,64 @@ Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung e
     
     <item>
       <title>Makierungen</title>
-      <link>/tutorials/makierungen/</link>
+      <link>/tutorials/makierungen.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/makierungen/</guid>
+      <guid>/tutorials/makierungen.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kampf</title>
-      <link>/tutorials/kampf/</link>
+      <link>/tutorials/kampf.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/kampf/</guid>
+      <guid>/tutorials/kampf.html</guid>
       <description>HinweisTest Hinweis  </description>
     </item>
     
     <item>
       <title>API</title>
-      <link>/api/1.6.0/</link>
+      <link>/api/1.6.0.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/1.6.0/</guid>
+      <guid>/api/1.6.0.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>API</title>
-      <link>/api/1.7.4/</link>
+      <link>/api/1.7.4.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/1.7.4/</guid>
+      <guid>/api/1.7.4.html</guid>
       <description></description>
     </item>
     
     <item>
       <title>GeheGeradeaus</title>
-      <link>/api/gehegeradeaus/1.0.0/</link>
+      <link>/api/gehegeradeaus/1.0.0.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/gehegeradeaus/1.0.0/</guid>
+      <guid>/api/gehegeradeaus/1.0.0.html</guid>
       <description>Parameter Test für die 1.6.0</description>
     </item>
     
     <item>
       <title>GeheGeradeaus</title>
-      <link>/api/gehegeradeaus/1.7.4/</link>
+      <link>/api/gehegeradeaus/1.7.4.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/api/gehegeradeaus/1.7.4/</guid>
+      <guid>/api/gehegeradeaus/1.7.4.html</guid>
       <description>Parameter entfernung (optional)</description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>/impressum/</link>
+      <link>/impressum.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/impressum/</guid>
+      <guid>/impressum.html</guid>
       <description>Wenn ihr Fragen habt, Anregungen wie wir AntMe! noch besser machen können oder etwas auf dieser Seite vermisst, dann schreibt uns. Wir sind immer für euch da und freuen uns über jegliches Feedback.
 info@antme.net
 AntMe! GmbH Rassosiedlung 55 82284 Grafrath
@@ -118,10 +118,10 @@ Spenden Das AntMe! Projekt und dessen Weiterentwicklung ist aktuell sehr auf ext
     
     <item>
       <title>Visual Studio</title>
-      <link>/installation/entwicklungsumgebung/vs2017/</link>
+      <link>/installation/entwicklungsumgebung/vs2017.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung/vs2017/</guid>
+      <guid>/installation/entwicklungsumgebung/vs2017.html</guid>
       <description>vs2017</description>
     </item>
     
