@@ -1,14 +1,14 @@
 @import "./_variables"
 
 .card
-    height: 45rem
+    min-height: 30rem
     background: $main-color
-    padding: 0
     display: flex
-    flex-basis: 25%
+    position: relative
+    flex-basis: 46%
     flex-grow: 1
     flex-direction: column
-    margin:   2rem
+    margin: 2rem
     cursor: pointer
     text-decoration: none
     @extend .shadow-ur
@@ -18,22 +18,28 @@
 
     h1
         margin: 0
-        padding: 1rem 0
+        padding: 2rem 0
         text-align: center
-        flex-grow: 0
-        flex-shrink: 1
-        flex-basis: auto
 
-    p
-        padding: 1rem 3rem
+    .content        
+        position: absolute
+        top: 50%
+        transform: translate(0, -50%)
         flex-grow: 1
         flex-shrink: 1
-        flex-basis: auto
+        display: flex
+        align-items: center
 
-    img
-        height: 10rem
-        display: block
-        margin: auto
+        p
+            padding: 1rem 3rem
+            flex-grow: 1
+            flex-shrink: 1
+            flex-basis: auto
 
-        &:hover
-            color: $accent-color
+        img
+            height: 50%
+            display: block
+            margin: auto
+
+            &:hover
+                color: $accent-color
