@@ -1,7 +1,7 @@
 languageCode = "de-de"
 title = "AntMe! Dokumentation"
-RelativeUrls = false
-uglyurls = false
+RelativeUrls = true
+uglyurls = true
 theme = "AntMe"
 DefaultContentLanguage = "de"
 sectionPagesMenu = "nav"
