@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/tutorials/spielstart.html</loc>
+    <loc>/tutorials/spielstart/</loc>
   </url>
   
   <url>
-    <loc>/installation/entwicklungsumgebung/vs2019.html</loc>
+    <loc>/installation/entwicklungsumgebung/vs2019/</loc>
   </url>
   
   <url>
-    <loc>/installation/antme/v1.7.4.html</loc>
+    <loc>/installation/antme/v1.7.4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/antme/v1.7.4.html"
+                href="/en/installation/antme/v1.7.4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/installation/antme/v1.7.4.html"
+                href="/installation/antme/v1.7.4/"
                 />
   </url>
   
   <url>
-    <loc>/tutorials/nahrung.html</loc>
+    <loc>/tutorials/nahrung/</loc>
   </url>
   
   <url>
-    <loc>/tutorials/makierungen.html</loc>
+    <loc>/tutorials/makierungen/</loc>
   </url>
   
   <url>
-    <loc>/tutorials/kampf.html</loc>
+    <loc>/tutorials/kampf/</loc>
   </url>
   
   <url>
@@ -51,29 +51,29 @@
   </url>
   
   <url>
-    <loc>/impressum.html</loc>
+    <loc>/impressum/</loc>
   </url>
   
   <url>
-    <loc>/installation.html</loc>
+    <loc>/installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation.html"
+                href="/en/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/installation.html"
+                href="/installation/"
                 />
   </url>
   
   <url>
-    <loc>/tutorials.html</loc>
+    <loc>/tutorials/</loc>
   </url>
   
   <url>
-    <loc>/installation/entwicklungsumgebung/vs2017.html</loc>
+    <loc>/installation/entwicklungsumgebung/vs2017/</loc>
   </url>
   
 </urlset>

@@ -12,10 +12,10 @@
     
     <item>
       <title>Spielstart</title>
-      <link>/tutorials/spielstart.html</link>
+      <link>/tutorials/spielstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/spielstart.html</guid>
+      <guid>/tutorials/spielstart/</guid>
       <description>Hier erfährst du, wie du mit dem eigentlichen Spiel beginnst, indem du deine Ameise erschaffst und sie in ihrer Welt platzierst.
 Die nachfolgenden Erklärungen und Bilder beziehen sich auf das Visual Studio 2013 als Entwicklungsumgebung sowie die beiden Frameworks .NET Framework 4 und .XNA Framework.
 Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit den Programmiersprachen C# oder VB.NET entwickelt worden sind. Das .XNA-Framework ermöglicht die 3D-Ansicht des Spiels.</description>
@@ -23,28 +23,28 @@ Zur Erinnerung: Das .NET Framework 4 dient dem Betrieb von Programmen, die mit d
     
     <item>
       <title>Visual Studio</title>
-      <link>/installation/entwicklungsumgebung/vs2019.html</link>
+      <link>/installation/entwicklungsumgebung/vs2019/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung/vs2019.html</guid>
+      <guid>/installation/entwicklungsumgebung/vs2019/</guid>
       <description>vs2019</description>
     </item>
     
     <item>
       <title>AntMe!</title>
-      <link>/installation/antme/v1.7.4.html</link>
+      <link>/installation/antme/v1.7.4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/antme/v1.7.4.html</guid>
+      <guid>/installation/antme/v1.7.4/</guid>
       <description>1.7.4</description>
     </item>
     
     <item>
       <title>Nahrung</title>
-      <link>/tutorials/nahrung.html</link>
+      <link>/tutorials/nahrung/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/nahrung.html</guid>
+      <guid>/tutorials/nahrung/</guid>
       <description>In dieser Lektion lernst du, wie du deinen Ameisen beibringst, sich zu bewegen und Nahrung zu sammeln.
 Diese Vorgaben geben wir in der Entwicklungsumgebung ein – wir programmieren die Ameisen, das auszuführen, was wir ihnen vorgeben.
 Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung eine sogenannte Klasse. Darunter versteht man einen Plan, der festlegt, wie sich mehrere ähnliche Objekte verhalten sollen. Dieser Plan beschreibt Attribute (Eigenschaften) und Methoden (Verhaltensweisen) der Objekte.</description>
@@ -52,28 +52,28 @@ Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung e
     
     <item>
       <title>Makierungen</title>
-      <link>/tutorials/makierungen.html</link>
+      <link>/tutorials/makierungen/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/makierungen.html</guid>
+      <guid>/tutorials/makierungen/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kampf</title>
-      <link>/tutorials/kampf.html</link>
+      <link>/tutorials/kampf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tutorials/kampf.html</guid>
+      <guid>/tutorials/kampf/</guid>
       <description>HinweisTest Hinweis  </description>
     </item>
     
     <item>
       <title>Impressum</title>
-      <link>/impressum.html</link>
+      <link>/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/impressum.html</guid>
+      <guid>/impressum/</guid>
       <description>Wenn ihr Fragen habt, Anregungen wie wir AntMe! noch besser machen können oder etwas auf dieser Seite vermisst, dann schreibt uns. Wir sind immer für euch da und freuen uns über jegliches Feedback.
 info@antme.net
 AntMe! GmbH Rassosiedlung 55 82284 Grafrath
@@ -82,10 +82,10 @@ Spenden Das AntMe! Projekt und dessen Weiterentwicklung ist aktuell sehr auf ext
     
     <item>
       <title>Visual Studio</title>
-      <link>/installation/entwicklungsumgebung/vs2017.html</link>
+      <link>/installation/entwicklungsumgebung/vs2017/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/installation/entwicklungsumgebung/vs2017.html</guid>
+      <guid>/installation/entwicklungsumgebung/vs2017/</guid>
       <description>vs2017</description>
     </item>
     

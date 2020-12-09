@@ -3,20 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/installation/development-environment/vs2019.html</loc>
+    <loc>/en/installation/development-environment/vs2019/</loc>
   </url>
   
   <url>
-    <loc>/en/installation/antme/v1.7.4.html</loc>
+    <loc>/en/installation/antme/v1.7.4/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/installation/antme/v1.7.4.html"
+                href="/installation/antme/v1.7.4/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation/antme/v1.7.4.html"
+                href="/en/installation/antme/v1.7.4/"
                 />
   </url>
   
@@ -35,21 +35,21 @@
   </url>
   
   <url>
-    <loc>/en/installation.html</loc>
+    <loc>/en/installation/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="/installation.html"
+                href="/installation/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/installation.html"
+                href="/en/installation/"
                 />
   </url>
   
   <url>
-    <loc>/en/installation/development-environment/vs2017.html</loc>
+    <loc>/en/installation/development-environment/vs2017/</loc>
   </url>
   
 </urlset>
