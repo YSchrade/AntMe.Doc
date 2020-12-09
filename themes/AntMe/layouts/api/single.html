@@ -1,21 +1,7 @@
 {{ define "main" }}
 {{ $current := . }}
 <div id="site">
-    <nav id="sitenav">
-        {{ $addedPages := slice }}
-        <h1>{{ .CurrentSection.Name }}</h1>
-        <ul>
-            {{ range (sort .CurrentSection.Pages ".Title" "asc").ByWeight }}
-            {{ if not (in $addedPages .Title) }}
-            {{ $addedPages = $addedPages | append .Title }}
-            <li>
-                <a href="{{ .Permalink }}" class="{{ if eq $current.Name .Name }}isActive{{ end }}">{{ .Name }}</a>
-            </li>    
-            {{ end }}
-            
-            {{ end }}
-        </ul>
-    </nav>
+    
     <div id="inner">
         <h1>{{ .Title }}</h1>
         {{ .Content }}

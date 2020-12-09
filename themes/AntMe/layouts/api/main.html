@@ -1,0 +1,47 @@
+{{ define "main" }}
+{{$files := (index .Site.Data .Site.Language.Lang).api }}
+{{ $latest := index (sort .CurrentSection.Pages ".Params.Version" "desc") 1}}
+{{$scratch := newScratch}}
+{{ if  ne .Params.Version nil}}
+    {{$scratch.Set "data" (index $files .Params.Version)}}
+{{else}}
+    {{ $scratch.Set "data" (index $files $latest.Params.Version)}}
+{{ end }}
+{{$data := $scratch.Get "data"}}
+<div id="api">
+    <div id="inner">
+        {{ .Content }}
+
+        <div id="data">
+            <table>
+                <tr>
+                    <th>Befehl</th>
+                    <th>Beschreibung</th>
+                </tr>
+                {{ range $data.commands }}
+                        <tr>
+                            <td><a href="{{.link}}">{{.name}}</a></td>
+                            <td>{{.description}}</td>
+                        </tr>
+                {{ end }}
+            </table>
+        </div>
+
+    </div>
+    {{$current := .}}
+    <nav id="versionnav" class="{{ if eq .Params.version  nil}}noContent{{ end }}">
+        <h1>Versionen</h1>
+        <ul>
+            {{ range sort (where .CurrentSection.Pages ".Title" .Title) ".Params.Version" "desc" }}
+            {{$page := .}}
+            <li>
+                <a href="{{ $page.Permalink }}" class="{{ if eq $data.version $page.Params.Version}}isActive{{ end }}">
+                    {{.Params.Version}}
+                </a>
+            </li>              
+            {{ end }}
+        </ul>
+    </nav>
+</div>
+{{ end }}
+
