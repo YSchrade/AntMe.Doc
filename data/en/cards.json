@@ -3,12 +3,12 @@
         "header": "Installation",
         "imgSource": "/images/150px-Skilllevel1.png",
         "content": "Before you can take command of your colony, you need to install AntMe! on your computer. That means you need to install the game itself as well as a few extra bits that help it run (what programmers call \"dependencies\"). So you will also need to download and install a development environment, which is what you will use to write and edit the code itself. And you will need a couple of frameworks, which are sort of like building blocks that programmers use.",
-        "link": "/en/installation.html"
+        "link": "en/installation"
     },
     {
         "header": "Tutorials",
         "imgSource": "images/150px-Skilllevel2.png",
         "content": "Once you have gotten acquainted with the game you can start programming your ants. The tutorial lessons are a great place to begin.",
-        "link": "/en/tutorials.html"
+        "link": "en/tutorials"
     }
 ]
