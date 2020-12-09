@@ -7,12 +7,12 @@
             {
                 "name": "GeheGeradeaus",
                 "description": "Die Ameise geht geradeaus. Das Ziel der Ameise bleibt unangetastet. Wenn ein Wert angegeben wird, wird die Ameise wieder ihr Ziel anvisieren, nachdem sie die angegebene Entfernung zurückgelegt hat.",
-                "link": "api/gehegeradeaus.html"
+                "link": "/api/gehegeradeaus.html"
             },
             {
                 "name": "GeheZuZiel",
                 "description": "Die Ameise speichert das angegebene Ziel und geht dort hin.",
-                "link": "api/gehezuziel.html"
+                "link": "/api/gehezuziel.html"
             }
         ]
 }
