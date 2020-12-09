@@ -1,0 +1,28 @@
+{{ define "main" }}
+
+
+    {{range first 1  (sort .CurrentSection.Pages ".Params.Version" "desc")}}
+        {{$latest := .}}
+        <div id="site">
+            
+            <div id="inner">
+                <h1>{{ $latest.Title }}</h1>
+                {{ .Content }}
+            </div>
+
+            <nav id="versionnav" class="{{ if eq $latest.Params.version  nil}}noContent{{ end }}">
+                <h1>Versionen</h1>
+                <ul>
+                    {{ range sort (where .CurrentSection.Pages ".Title" $latest.Title) ".Params.version" "desc" }}
+                    {{$page := .}}
+                    <li>
+                        <a href="{{ $page.Permalink }}" class="{{ if eq $latest $page}}isActive{{ end }}">
+                            {{.Params.Version}}
+                        </a>
+                    </li>              
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    {{ end }}
+{{ end }}

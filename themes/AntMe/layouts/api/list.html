@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div id="contentlist">
+    {{$addedPages := slice}}
+    {{ range (sort .Pages ".Params.version" "asc").ByWeight }}
+        {{ if eq .Params.version nil }}
+            {{ partial "contentItem" . }}
+        {{ else }}
+            {{if not (in $addedPages .Title) }}
+                {{ partial "contentItem" . }}
+                {{ $addedPages = $addedPages | append .Title }}
+            {{ end }}
+        {{ end }}
+
+    {{ end }}
+</div>
+{{ end }}

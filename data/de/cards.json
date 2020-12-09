@@ -12,7 +12,8 @@
         "link": "tutorials"
     },
     {
-        "header": "Api"
+        "header": "Api",
+        "link": "api"
     },
     {
         "header" : "Background infos"
