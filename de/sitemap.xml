@@ -37,6 +37,10 @@
   </url>
   
   <url>
+    <loc>/api/gehegeradeaus/</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <xhtml:link
                 rel="alternate"
@@ -48,6 +52,26 @@
                 hreflang="de"
                 href="/"
                 />
+  </url>
+  
+  <url>
+    <loc>/api/1.6.0/</loc>
+  </url>
+  
+  <url>
+    <loc>/api/1.7.4/</loc>
+  </url>
+  
+  <url>
+    <loc>/api/</loc>
+  </url>
+  
+  <url>
+    <loc>/api/gehegeradeaus/1.0.0/</loc>
+  </url>
+  
+  <url>
+    <loc>/api/gehegeradeaus/1.7.4/</loc>
   </url>
   
   <url>

@@ -69,6 +69,42 @@ Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung e
     </item>
     
     <item>
+      <title>API</title>
+      <link>/api/1.6.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/1.6.0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>API</title>
+      <link>/api/1.7.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/1.7.4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GeheGeradeaus</title>
+      <link>/api/gehegeradeaus/1.0.0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/gehegeradeaus/1.0.0/</guid>
+      <description>Parameter Test für die 1.6.0</description>
+    </item>
+    
+    <item>
+      <title>GeheGeradeaus</title>
+      <link>/api/gehegeradeaus/1.7.4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/gehegeradeaus/1.7.4/</guid>
+      <description>Parameter entfernung (optional)</description>
+    </item>
+    
+    <item>
       <title>Impressum</title>
       <link>/impressum/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
