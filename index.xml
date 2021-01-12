@@ -69,24 +69,6 @@ Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung e
     </item>
     
     <item>
-      <title>API</title>
-      <link>/api/1.6.0.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/api/1.6.0.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>API</title>
-      <link>/api/1.7.4.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/api/1.7.4.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>GeheGeradeaus</title>
       <link>/api/gehegeradeaus/1.0.0.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -102,6 +84,24 @@ Unsere frisch erstellte Ameisenkolonie im Sandkasten ist in der Programmierung e
       
       <guid>/api/gehegeradeaus/1.7.4.html</guid>
       <description>Parameter entfernung (optional)</description>
+    </item>
+    
+    <item>
+      <title>GeheZuZiel</title>
+      <link>/api/gehezuziel/1.0.0.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/gehezuziel/1.0.0.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GeheZuZiel</title>
+      <link>/api/gehezuziel/1.7.4.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/gehezuziel/1.7.4.html</guid>
+      <description>Parameter </description>
     </item>
     
     <item>

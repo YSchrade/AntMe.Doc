@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AntMe! Dokumentation</title>
+    <link>/api/gehezuziel.html</link>
+    <description>Recent content on AntMe! Dokumentation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de-de</language>
+    
+	<atom:link href="/api/gehezuziel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>GeheZuZiel</title>
+      <link>/api/gehezuziel/1.0.0.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/gehezuziel/1.0.0.html</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GeheZuZiel</title>
+      <link>/api/gehezuziel/1.7.4.html</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/api/gehezuziel/1.7.4.html</guid>
+      <description>Parameter </description>
+    </item>
+    
+  </channel>
+</rss>

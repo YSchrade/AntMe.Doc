@@ -41,6 +41,10 @@
   </url>
   
   <url>
+    <loc>/api/gehezuziel.html</loc>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <xhtml:link
                 rel="alternate"
@@ -55,14 +59,6 @@
   </url>
   
   <url>
-    <loc>/api/1.6.0.html</loc>
-  </url>
-  
-  <url>
-    <loc>/api/1.7.4.html</loc>
-  </url>
-  
-  <url>
     <loc>/api.html</loc>
   </url>
   
@@ -72,6 +68,14 @@
   
   <url>
     <loc>/api/gehegeradeaus/1.7.4.html</loc>
+  </url>
+  
+  <url>
+    <loc>/api/gehezuziel/1.0.0.html</loc>
+  </url>
+  
+  <url>
+    <loc>/api/gehezuziel/1.7.4.html</loc>
   </url>
   
   <url>
